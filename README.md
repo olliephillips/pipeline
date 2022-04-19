@@ -1,10 +1,10 @@
 # Pipeline
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/olliephillips/pipeline?style=for-the-badge)
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Unit%20Test/master?label=Tests%20(master)&style=for-the-badge)
-![GitHub Release Date](https://img.shields.io/github/release-date/olliephillips/pipeline?style=for-the-badge)
-![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/olliephillips/pipeline/latest?style=for-the-badge)
-
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/olliephillips/pipeline?style=flat-sqaure)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Unit%20Test/master?label=Tests%20(master)&style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/olliephillips/pipeline?style=flat-square)
+![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/olliephillips/pipeline/latest?style=flat-square)
+[![DeepSource](https://deepsource.io/gh/olliephillips/pipeline.svg/?label=active+issues&token=uYY_4Kwjq9MnjT7TzykEyv-J)](https://deepsource.io/gh/olliephillips/pipeline/?ref=repository-badge)
 
 A pipeline for tests and artifact build.
 
@@ -21,10 +21,9 @@ git push origin v0.0.1
 ```
 
 ### Badges
-
+Various Github & Deepsource
 
 ### Todo
 - Main branch
-- Tests workflow
-- Badges
+- Deepsource coverage report
 - Announce (Goreleaser)
