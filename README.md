@@ -2,6 +2,8 @@
 
 ## A pipeline for tests, code quality/security review and artifact build
 
+Building a template repo using test & build tools with Github Actions. Optimised for Go.
+
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/olliephillips/pipeline?style=flat-square)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Build?style=flat-square)
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Unit%20Test/master?label=tests&style=flat-square)
