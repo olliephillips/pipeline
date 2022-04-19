@@ -6,7 +6,7 @@
 ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/olliephillips/pipeline/latest?style=flat-square)
 [![DeepSource](https://deepsource.io/gh/olliephillips/pipeline.svg/?label=active+issues&token=uYY_4Kwjq9MnjT7TzykEyv-J)](https://deepsource.io/gh/olliephillips/pipeline/?ref=repository-badge)
 ![GitHub all releases](https://img.shields.io/github/downloads/olliephillips/pipeline/total?style=flat-square)
-![GitHub](https://img.shields.io/github/license/olliephillips/pipeline?style=flat-square)
+![GitHub](https://img.shields.io/github/license/olliephillips/pipeline?label=license&style=flat-square)
 A pipeline for tests and artifact build.
 
 ### Unit Tests
