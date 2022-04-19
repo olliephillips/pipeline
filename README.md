@@ -28,3 +28,7 @@ Various Github & Deepsource
 - Main branch
 - Deepsource coverage report
 - Announce (Goreleaser)
+
+### License
+
+Licensed under [Mozilla Public License 2.0](LICENSE)
