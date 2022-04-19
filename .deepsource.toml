@@ -6,3 +6,7 @@ enabled = true
 
   [analyzers.meta]
   import_root = "github.com/olliephillips/pipeline"
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
