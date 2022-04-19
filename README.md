@@ -27,6 +27,10 @@ Code quality, security and test coverage is monitored using DeepSource.
 Releases are built for target OS using GoReleaser. Create a tag, push it. 
 A github action will create the release using goreleaser.
 
+### Branch protection
+
+Within Github, we've configured a rule to prevent direct push to master.
+
 ```bash
 git tag -a v0.0.1 -m "Test release"
 git push origin v0.0.1
