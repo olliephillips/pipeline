@@ -14,20 +14,22 @@ Building a template repo using test & build tools with Github Actions. Optimised
 
 ### Unit Tests
 
-Tests are run on all pushes and pull requests to main/master.
+Tests are run on 'push' and 'pull request' to main/master.
 
 ### Build
 
-The software is built on each push or pull request to main/master.
+Software is built on 'push' and 'pull request' to main/master. Will it build!?
 
 ### Code Quality & Security
 
-Code quality, security and test coverage is monitored using DeepSource.
+Code quality, security and test coverage is monitored using [DeepSource](https://deepsource.io).
 
 ### Releases
 
-Releases are built for target OS using GoReleaser. Create a tag, push it. 
-A github action will create the release using goreleaser.
+Releases are built for target OS using GoReleaser. Create a tag, push it.
+Latest release is [at this generic link here](https://github.com/olliephillips/pipeline/releases/latest)
+
+This is typical is the git create tag & push tag syntax.
 
 ```bash
 git tag -a v0.0.1 -m "Test release"
@@ -36,10 +38,10 @@ git push origin v0.0.1
 
 ### Branch protection
 
-Within Github, we've configured a rule to prevent direct push to master.
+Within Github, we've configured a rule to prevent direct push to master.  As an admin my commits don't hit that protection.
 
 ### Badges
-Various Github & Deepsource badges are being used
+Various Github & Deepsource badges are being used. Mostly done via [Sheilds.io](https://shields.io)
 
 ### Todo
 - Main branch
