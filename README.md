@@ -1,6 +1,6 @@
 # Pipeline
 
-## A pipeline for tests, code quality/security review and artifact build
+## A repo/pipeline template for tests, code quality/security review and artifact build
 
 Building a template repo using test & build tools with Github Actions. Optimised for Go.
 
