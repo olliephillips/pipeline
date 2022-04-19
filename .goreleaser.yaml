@@ -16,7 +16,7 @@ archives:
       386: i386
       amd64: x86_64
 checksum:
-  name_template: "{{ .ProjectName }}_{{ .Version }}_checksums_sha256.txt"
+  name_template: "CHECKSUMS_SHA256_{{ toupper .ProjectName }}_V{{ .Version }}.TXT"
 snapshot:
   name_template: "{{ incpatch .Version }}-next"
 changelog:
