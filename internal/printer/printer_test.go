@@ -7,7 +7,7 @@ import (
 
 func TestPrintSalutation(t *testing.T) {
 	input := "Tester"
-	want := "Hello Tester"
+	want := "Hello Tester this is a fail"
 	got := printer.PrintSalutation(input)
 	if got != want {
 		t.Fatalf("Wanted %s got %s", want, got)
