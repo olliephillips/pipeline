@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/olliephillips/pipeline/internal/printer"
+)
 
 func main(){
-	fmt.Println("Hello pipeline!")
+	fmt.Println(printer.PrintSalutation("Ollie"))
 }
