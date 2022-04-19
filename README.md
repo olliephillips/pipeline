@@ -1,6 +1,6 @@
 # Pipeline
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/olliephillips/pipeline?style=flat-sqaure)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/olliephillips/pipeline?style=flat-square)
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Unit%20Test/master?label=Tests%20(master)&style=flat-square)
 ![GitHub Release Date](https://img.shields.io/github/release-date/olliephillips/pipeline?style=flat-square)
 ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/olliephillips/pipeline/latest?style=flat-square)
