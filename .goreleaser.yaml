@@ -15,8 +15,9 @@ archives:
       windows: Windows
       386: i386
       amd64: x86_64
+    format: zip
 checksum:
-  name_template: "CHECKSUMS_SHA256_{{ toupper .ProjectName }}_V{{ .Version }}.TXT"
+  name_template: "CHECKSUMS_SHA256_{{ toupper .ProjectName }}_{{ .Version }}.txt"
 snapshot:
   name_template: "{{ incpatch .Version }}-next"
 changelog:
