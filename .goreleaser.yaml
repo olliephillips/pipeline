@@ -15,7 +15,9 @@ archives:
       windows: Windows
       386: i386
       amd64: x86_64
-    format: zip
+    format_overrides:
+      - goos: windows
+        format: zip
 checksum:
   name_template: "CHECKSUMS_SHA256_{{ toupper .ProjectName }}_{{ .Version }}.txt"
 snapshot:
