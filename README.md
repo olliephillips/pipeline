@@ -14,6 +14,14 @@ Building a template repo using test & build tools with Github Actions. Optimised
 [![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/olliephillips/pipeline/latest?style=flat-square)](https://github.com/olliephillips/pipeline/commits)
 [![GitHub](https://img.shields.io/github/license/olliephillips/pipeline?label=license&style=flat-square)](LICENSE)
 
+## Using
+
+Download as a zip file rather than clone or fork the repository. Then run `git init` in your code folder. 
+Or, clone/fork it and delete the `.git` folder, and then run `git init`.
+
+- DeepSource and Twitter will need secrets to be set up in your repository if need to use.
+- [README.md](README.md) will need badge assets to be edited to suit Github account and repository name.
+
 ### Unit Tests
 
 Tests are run on 'push' and 'pull request' to main/master.
