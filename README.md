@@ -5,6 +5,7 @@
 Building a template repo using test & build tools with Github Actions. Optimised for Go.
 
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/olliephillips/pipeline?style=flat-square)
+[![Go Report Card](https://goreportcard.com/badge/github.com/olliephillips/pipeline)](https://goreportcard.com/report/github.com/olliephillips/pipeline?style=flat-square)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Build?style=flat-square)
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Unit%20Test/master?label=tests&style=flat-square)
 ![GitHub Release Date](https://img.shields.io/github/release-date/olliephillips/pipeline?style=flat-square)
