@@ -44,7 +44,7 @@ Within Github, we've configured a rule to prevent direct push to master.  As an 
 Various Github & Deepsource badges are being used. Mostly done via [Sheilds.io](https://shields.io)
 
 ### Announcements
-New releases will be announced to Twitter.
+New releases will be announced to Twitter (requires Twitter's elevated developer access).
 
 ### Todo
 - Main branch
