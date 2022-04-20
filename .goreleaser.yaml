@@ -1,3 +1,8 @@
+env:
+  - TWITTER_CONSUMER_KEY={{ .Env.SOFTWARE_RELEASE_TWITTER_CONSUMER_KEY }}
+  - TWITTER_CONSUMER_SECRET={{ .Env.SOFTWARE_RELEASE_TWITTER_CONSUMER_SECRET }}
+  - TWITTER_ACCESS_TOKEN={{ .Env.SOFTWARE_RELEASE_TWITTER_ACCESS_TOKEN }}
+  - TWITTER_ACCESS_TOKEN_SECRET={{ .Env.SOFTWARE_RELEASE_TWITTER_ACCESS_TOKEN_SECRET }}
 before:
   hooks:
     - go mod tidy
@@ -28,3 +33,7 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+announce:
+  twitter:
+    enabled: true
+    message_template: Hey {{ .ProjectName }} {{ .Tag }} is out! You can check it out at {{ .ReleaseURL }}!!`

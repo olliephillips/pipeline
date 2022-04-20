@@ -39,9 +39,11 @@ git push origin v0.0.1
 ### Badges
 Various Github & Deepsource badges are being used
 
+### Announcements
+New releases will be announced to Twitter.
+
 ### Todo
 - Main branch
-- Announce (Goreleaser)
 
 ### License
 Licensed under [Mozilla Public License 2.0](LICENSE)
