@@ -10,7 +10,7 @@ Building a template repo using test & build tools with Github Actions. Optimised
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Build?style=flat-square)
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Unit%20Test/master?label=tests&style=flat-square)
 
-![GitHub Release Date](https://img.shields.io/github/release-date/olliephillips/pipeline?style=flat-square)
+[![GitHub Release Date](https://img.shields.io/github/release-date/olliephillips/pipeline?style=flat-square)](https://github.com/olliephillips/pipeline/releases)
 ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/olliephillips/pipeline/latest?style=flat-square)
 ![GitHub](https://img.shields.io/github/license/olliephillips/pipeline?label=license&style=flat-square)
 
