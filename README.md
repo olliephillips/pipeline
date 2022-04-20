@@ -8,7 +8,7 @@ Building a template repo using test & build tools with Github Actions. Optimised
 [![Go Report Card](https://goreportcard.com/badge/github.com/olliephillips/pipeline?style=flat-square)](https://goreportcard.com/report/github.com/olliephillips/pipeline)
 [![DeepSource](https://deepsource.io/gh/olliephillips/pipeline.svg/?label=active+issues&token=uYY_4Kwjq9MnjT7TzykEyv-J)](https://deepsource.io/gh/olliephillips/pipeline/?ref=repository-badge)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Build?style=flat-square)
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Unit%20Test/master?label=tests&style=flat-square)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/olliephillips/pipeline/Unit%20Test/master?label=tests&style=flat-square)](https://github.com/olliephillips/pipeline/actions/workflows/unit_test.yml)
 
 [![GitHub Release Date](https://img.shields.io/github/release-date/olliephillips/pipeline?style=flat-square)](https://github.com/olliephillips/pipeline/releases)
 ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/olliephillips/pipeline/latest?style=flat-square)
